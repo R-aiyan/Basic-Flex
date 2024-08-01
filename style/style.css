@@ -7,13 +7,63 @@
     background-color: azure;
     padding: 10px; font-size: 25px;
     margin: 15px 15px 15px 15px;
-}
-.Teacher{ padding: 25px; background-color: darkgoldenrod; display: flex;
+
 
 }
-.Student{ border: 10px rgb(89, 90, 41);
+.Teacher
+{ padding: 25px; 
+background-color: darkgoldenrod; 
+display: flex;
+}
+
+.Student{ border: 10px rgb(15, 15, 14);
     background-color: greenyellow;
     padding: 15px; font-size: 20px;
     margin: 15px 15px 15px 15px;
 
+}
+.Buyer
+{
+    padding: 20px; 
+    background-color: midnightblue; 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+    height: 300px;
+    /* align-items: stretch; */
+    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Seller{
+    border: 10px black;
+    background-color: blueviolet;
+    padding: 15px; 
+    font-size: 20px;
+   
+
+}
+.Doctor {
+padding: 20px; 
+    background-color: rgb(155, 70, 70); 
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    height: 350px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.Patient {
+    border: 10px black;
+    background-color: rgb(239, 106, 40);
+    padding: 25px; 
+    font-size: 30px;
 }
