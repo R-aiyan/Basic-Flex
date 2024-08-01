@@ -1,0 +1,10 @@
+.Parent{
+    padding: 25px;
+    background-color: cadetblue;
+}
+.child{
+    border: 2px solid rgb(14, 110, 14);
+    background-color: azure;
+    padding: 10px; font-size: 25px;
+    margin: 15px 15px 15px 15px;
+}
